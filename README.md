@@ -6,6 +6,6 @@ Creation of Backstage Docker Container and updating the helm repo as per the req
 
 helm repo add bitnami https://charts.bitnami.com/bitnami
 
-helm repo add 
+helm repo add https://github.com/adityasneo/helm.git
 
 change to particular directory and run helm install <deployment name> . 
