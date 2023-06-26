@@ -233,6 +233,7 @@ service:
 
   # -- Kubernetes Service type
   type: ClusterIP
+  type: LoadBalancer
 
   # -- Backstage svc port for client connections
   ports:
